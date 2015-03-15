@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1">
+	<title>Awesome website on the internet</title>
+	<?php include('head.php'); ?>
+	<link rel="stylesheet" href="/style.css"/>
+	<link rel="stylesheet" href="/script.js"/>
+</head>
+<body>
+	<?php include('nav.php');?>
+	<div id="mainwrap">
+		<div id="hoverwrap"></div>
+		<div id="tilewrap">
+			<div class="titlerow">Apps + Games</div>
+			<div class="row">
+				<div class="tile">
+					<a href="/wip/soundcloudapi">			
+						<p>Soundcloud music player</p>
+						<img src="/thumbs/soundcloud.png">
+					</a>
+					<ul class="tooltip">
+						<li><strong>Streaming Music player experiment</strong></li><br>
+						<li></li>
+						<li> - support for SoundCloud / Deezer API.</li>
+						<li> - responsive design / touch input.</li>
+						<li> - search and library support.</li>
+					</ul>
+				</div><div 
+				class="tile">
+					<a href="/apps/calc">			
+						<p>Calc</p>
+						<img src="/thumbs/calc.png">
+					</a><ul class="tooltip" id="calc">
+						<li class="list_title"><strong>HTML5 / CSS3 calculator</strong></li><br>
+						<li> - responsive design on mobile devices.</li>
+						<li> - button and keyboard input.</li>
+						<li> - custom text input handling:
+							<ul>
+								<li> &nbsp;&nbsp;&nbsp;&nbsp;&#xb7; rejects irrelevant characters.</li>
+								<li> &nbsp;&nbsp;&nbsp;&nbsp;&#xb7; custom selection handling.</li>
+								<li> &nbsp;&nbsp;&nbsp;&nbsp;&#xb7; input at any point in the string with cursor or keyboard selection.</li>
+							</ul>
+						</li>
+						<li> - robust JavaScript expression parser.</li>
+						<li> - extended jQuery functions for custom input.</li>
+					</ul>
+				</div><div 
+				class="tile">
+					<a href="/jocuri/ms">			
+						<p>Minesweeper</p>
+						<img src="/thumbs/mines.png">	
+					</a>
+					<ul class="tooltip">
+						<li><strong>HTML5 Canvas / JavaScript Minesweeper</strong></li><br>
+						<li></li>
+						<li> - drawing and animations in HTML5 Canvas.</li>
+						<li> - four difficulty levels.</li>
+						<li> - three themes.</li>
+					</ul>
+				</div><div 
+				class="tile">
+					<a href="/jocuri/quad">			
+						<p>Tetris</p>
+						<img src="/thumbs/tetris.png">
+					</a>
+					<ul class="tooltip">
+						<li><strong>HTML5 Canvas / JavaScript Tetrs</strong></li><br>
+						<li></li>
+						<li> - drawing and animations in pure HTML5 Canvas.</li>
+						<li> - no texture images.</li>
+						<li> - gradual difficulty.</li>
+						<li> - exponential scoring.</li>
+						<li> - themes.</li>
+						<li> - custom keyboard input for smooth and precise movement.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="titlerow">Sites</div>
+			<div class="row">
+				<div class="tile">
+					<a href="/test/wordpress">			
+						<p>Proiectare</p>
+						<img src="/thumbs/sait.jpg">
+					</a>
+					<ul class="tooltip">
+						<li><strong>Fully custom WordPress theme</strong></li><br>
+						<li> </li>
+						<li> - WordPress CMS.</li>
+						<li> - custom homepage.</li>
+						<li> - custom pages.</li>
+						<li> - custom post index.</li>
+						<li> - custom single post layout.</li>
+						<li> - tiled portfolio page.</li>
+						<li> - custom JavaScript sliders with dynamic resize.</li>
+					</ul>
+				</div><div 
+				class="tile">
+					<a href="/sites/florisim">			
+						<p>Brutarie</p>
+						<img src="/thumbs/florisim.jpg">
+					</a>
+					<ul class="tooltip">
+						<li><strong>HTML5 / CSS3 single page site</strong></li><br>
+						<li> - navigation animations.</li>
+						<li> - jQuery effects.</li>
+						<li> - sticky header.</li>
+						<li> - custom JavaScript product slider</li>
+						<li> - florisim.ro</li>
+					</ul>
+				</div> <!-- tile -->
+			</div> <!-- row -->
+			<div class="titlerow">Work in progress/Experiments</div>
+			<div class="row">
+				<div class="tile">
+					<a href="/wip/warpneun">			
+						<p>Warp Neun</p>
+						<img src="/thumbs/warpneun.png">
+					</a>
+					<ul class="tooltip">
+						<li><strong>Sticky / Fixed element experiment</strong></li><br>
+						<li></li>
+						<li> - sticky navigation menu on scroll with jQuery and CSS</li>
+						<li> - CSS3 pattern backgrounds</li>
+					</ul>
+				</div><div 
+				class="tile">
+					<a href="/wip/whitespace">			
+						<p>Whitespace</p>
+						<img src="/thumbs/whitespace.png">
+					</a>
+					<ul class="tooltip">
+						<li><strong>jQuery positioning and scrolling experiment</strong></li><br>
+						<li></li>
+						<li> - horizontal carousel movement with mouse scroll.</li>
+						<li> - CSS3 effects: oppacity, grayscale, transition.</li>
+						<li> - jQuery CSS manipulation.</li>
+					</ul>
+				</div><div 
+				class="tile">
+					<a href="/wip/haiducheather">			
+						<p>Haiduc</p>
+						<img src="/thumbs/haiduc.jpg">
+					</a>
+					<ul class="tooltip">
+						<li><strong>Summer Well 2013 experiment</strong></li><br>
+						<li></li>
+						<li> - fixed header</li>
+						<li> - responsive background positioning with jQuery</li>
+						<li> - jQuery animated scroll</li>
+					</ul>
+				</div>
+			</div>
+		</div> <!-- tilewrap -->
+	</div> <!-- mainwrap -->
+	<script src="/script.js"></script>
+</body>
+</html> 
